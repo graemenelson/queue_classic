@@ -87,7 +87,7 @@ module QC
   end
 
   def self.log(data)
-    Scrolls.log({:lib => :queue_classic}.merge(data))
+    Scrolls.log({:level => :info, :lib => :queue_classic}.merge(data))
   end
 
 end
